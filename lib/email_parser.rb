@@ -16,6 +16,6 @@ class EmailAddressParser
       end
     end
     array.uniq!
-    return array
+    array
   end
 end
